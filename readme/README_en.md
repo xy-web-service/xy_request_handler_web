@@ -14,7 +14,7 @@
 
 ## Description
 
-xy-web-service Service settings module.
+The web request base class based on xy_request_handler_base encapsulates common functions for easy and rapid development.
 
 ## Source Code Repositories
 
@@ -30,17 +30,17 @@ pip install xy_request_handler_web
 
 ## How to use
 
-```bash
-# bash
-xy_request_handler_web -c project -n xy_request_handler_web_demo
-# 创建项目 [ xy_request_handler_web_demo ] 成功!!!
-# 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler_web/test/xy_request_handler_web_demo
+> For details, please see [Demoes.py](./samples/xy_web_server_demo/source/Runner/RequestHandlerDemo/Demoes.py)
+```python
+# Demoes.py
 
-cd xy_request_handler_web_demo
-xy_request_handler_web
-# >>>>>>>>>>>> xy_request_handler_web - v1.0.1 <<<<<<<<<<<<<
-#
-# Hello World!!!
+from xy_request_handler_web.Web import Web
+
+class Demo(Web):
+
+    def get(self):
+        self.write("Hello, xy_request_handler_web !")
+
 ```
 
 ## License

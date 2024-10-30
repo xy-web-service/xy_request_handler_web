@@ -15,7 +15,7 @@
 
 ## 说明
 
-xy-web-service服务设置模块.
+基于xy_request_handler_base的web请求基类，封装了常用功能，方便快速开发.
 
 ## 源码仓库
 
@@ -31,17 +31,17 @@ pip install xy_request_handler_web
 
 ## 使用
 
-```bash
-# bash
-xy_request_handler_web -c project -n xy_request_handler_web_demo
-# 创建项目 [ xy_request_handler_web_demo ] 成功!!!
-# 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler_web/test/xy_request_handler_web_demo
+> 详情请查看 [Demoes.py](./samples/xy_web_server_demo/source/Runner/RequestHandlerDemo/Demoes.py)
+```python
+# Demoes.py
 
-cd xy_request_handler_web_demo
-xy_request_handler_web
-# >>>>>>>>>>>> xy_request_handler_web - v1.0.1 <<<<<<<<<<<<<
-#
-# Hello World!!!
+from xy_request_handler_web.Web import Web
+
+class Demo(Web):
+
+    def get(self):
+        self.write("Hello, xy_request_handler_web !")
+
 ```
 
 ## 许可证
