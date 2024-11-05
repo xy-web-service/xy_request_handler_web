@@ -19,7 +19,8 @@ The web request base class based on xy_request_handler_base encapsulates common 
 ## Source Code Repositories
 
 - <a href="https://github.com/xy-web-service/xy_request_handler_web.git" target="_blank">Github</a>  
-- <a href="https://gitee.com/xy-web-service/xy_request_handler_web.git" target="_blank">Gitee</a>
+- <a href="https://gitee.com/xy-opensource/xy_request_handler_web.git" target="_blank">Gitee</a>  
+- <a href="https://gitcode.com/xy-opensource/xy_request_handler_web.git" target="_blank">GitCode</a>  
 
 ## Installation
 
@@ -47,7 +48,8 @@ Run [Sample Project](../samples/xy_web_server_demo)
 
 > For detailed usage of the sample project, please go to the following repository <b style="color: blue">xy_web_server.git</b>
 > - <a href="https://github.com/xy-web-service/xy_web_server.git" target="_blank">Github</a>  
-> - <a href="https://gitee.com/xy-web-service/xy_web_server.git" target="_blank">Gitee</a>
+> - <a href="https://gitee.com/xy-opensource/xy_web_server.git" target="_blank">Gitee</a>  
+> - <a href="https://gitcode.com/xy-opensource/xy_web_server.git" target="_blank">GitCode</a>  
 
 ```bash
 # bash

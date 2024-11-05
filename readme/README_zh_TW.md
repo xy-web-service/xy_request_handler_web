@@ -19,7 +19,8 @@
 ## 程式碼庫
 
 - <a href="https://github.com/xy-web-service/xy_request_handler_web.git" target="_blank">Github位址</a>  
-- <a href="https://gitee.com/xy-web-service/xy_request_handler_web.git" target="_blank">Gitee位址</a>
+- <a href="https://gitee.com/xy-opensource/xy_request_handler_web.git" target="_blank">Gitee位址</a>  
+- <a href="https://gitcode.com/xy-opensource/xy_request_handler_web.git" target="_blank">GitCode位址</a>  
 
 ## 安裝
 
@@ -47,7 +48,8 @@ class Demo(Web):
 
 > 範例工程具體使用方式請移步 <b style="color: blue">xy_web_server.git</b> 以下倉庫
 > - <a href="https://github.com/xy-web-service/xy_web_server.git" target="_blank">Github位址</a>  
-> - <a href="https://gitee.com/xy-web-service/xy_web_server.git" target="_blank">Gitee位址</a>
+> - <a href="https://gitee.com/xy-opensource/xy_web_server.git" target="_blank">Gitee位址</a>  
+> - <a href="https://gitcode.com/xy-opensource/xy_web_server.git" target="_blank">GitCode位址</a>  
 
 ```bash
 # bash
